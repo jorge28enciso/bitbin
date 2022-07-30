@@ -1,0 +1,61 @@
+{
+  "Version": "2.3",
+  "ReleaseNotes": "NUEVA VERSIÓN DISPONIBLE",
+  "UrlUpdate": "https://bitbin.it/keRUvpKI/raw/",
+  "Sms": "https://bitbin.it/keRUvpKI/raw/",
+  "EmailFeedback": "ramoncandia2005@gmail.com ",
+  "UrlContato": "https://wa.me/+595982283913",
+  "UrlTermos": "https://wa.me/+595982283913",
+  "CheckUser": "true",
+  "Udp": [
+    {
+      "Porta": "7300"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "🔰TIGO PARAGUAY-REDZONE🔰",
+      "TYPE": "premium",
+      "FLAG": "py.png",
+      "ServerIP": "52.85.213.227",
+      "CheckUser": "",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "🔰CLARO PARAGUAY-REDZONE🔰",
+      "TYPE": "premium",
+      "FLAG": "py.png",
+      "ServerIP": "www.claro.com.py",
+      "CheckUser": "",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "TIGO PARAGUAY",
+      "FLAG": "ic_tim.png",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3qpebahopepps.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "52.85.213.227",
+      "TlsIP": "52.85.213.227",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO PARAGUAY",
+      "FLAG": "claro.png",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3qpebahopepps.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "d3qpebahopepps.cloudfront.net",
+      "TlsIP": "www.claro.com.py",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
